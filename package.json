@@ -1,0 +1,71 @@
+{
+  "name": "apollo-server-mongoose",
+  "version": "0.1.0",
+  "description": "Minimal set of code to write a GraphQL server with Apollo graphql-tools and mongoose",
+  "scripts": {
+    "start": "nodemon ./server.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarmand/apollo-server-mongoose.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Javascript",
+    "GraphQL",
+    "Express",
+    "Apollo",
+    "Meteor"
+  ],
+  "author": "Alain Armand <aarmand.inbox@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aarmand/apollo-server-mongoose/issues"
+  },
+  "homepage": "https://github.com/aarmand/apollo-server-mongoose#readme",
+  "dependencies": {
+    "apollo-server": "^0.2.0",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.0",
+    "express": "4.13.4",
+    "graphql": "^0.7.0",
+    "graphql-subscriptions": "^0.1.5",
+    "graphql-tools": "^0.6.5",
+    "lodash": "^4.15.0",
+    "mongoose": "^4.6.3",
+    "subscriptions-transport-ws": "^0.2.2"
+  },
+  "devDependencies": {
+    "babel-cli": "6.5.1",
+    "babel-core": "^6.5.2",
+    "babel-eslint": "^6.0.0-beta.6",
+    "babel-plugin-inline-import": "^2.0.1",
+    "babel-polyfill": "6.5.0",
+    "babel-preset-es2015": "6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "6.5.0",
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-import": "^1.1.0",
+    "eslint-plugin-react": "^4.2.3",
+    "nodemon": "^1.9.1"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": [
+      "airbnb/base",
+      "plugin:import/errors"
+    ],
+    "rules": {
+      "no-use-before-define": 0,
+      "arrow-body-style": 0,
+      "dot-notation": 0,
+      "no-console": 0
+    },
+    "env": {
+      "mocha": true
+    }
+  }
+}
