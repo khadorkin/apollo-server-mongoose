@@ -1,4 +1,4 @@
-import {database} from '../utils';
+import { database } from '../utils';
 import Place from './Place';
 
 database.open();
